@@ -55,6 +55,7 @@ console.log("print a value:", cd)*/
 //console.log(null>=0)
 //console.log(null==0)
 //premitive values(stack), non premitive (heap)
+/*
 let email1="Emanshaid@gmail.com"
 let email2=email1
 console.log(email1);
@@ -70,6 +71,17 @@ console.log(email2.charAt(3))
 console.log(email2.indexOf('a'))
 const str=String("      just    ")
 console.log(str.trim())//remove extra spaces
+*/
+// number and maths
+//const score=400
+//const balance=new Number(500)//in this way it will implicitly set balance datatype to Number
+//console.log(score)
+//console.log(balance)
+//methods of numbers 
+//console.log(balance.toString())
+           //dates
+let myDate=new Date()
+console.log(myDate.toString())         
 
 
 
