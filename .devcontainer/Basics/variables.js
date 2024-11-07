@@ -80,10 +80,23 @@ console.log(str.trim())//remove extra spaces
 //methods of numbers 
 //console.log(balance.toString())
            //dates
-let myDate=new Date()
-console.log(myDate.toString())         
+//let myDate=new Date()
+//console.log(myDate.toString())         
 
-
+//Arrays
+const numbers=[1,2,3,4,5]
+console.log(numbers)
+const array=new Array(1,2,3,4,5)// another way to decalre array
+console.log(numbers.length)
+console.log(numbers.push(6))
+console.log(numbers);
+console.log(numbers.includes(6))
+console.log(numbers.indexOf(6))
+console.log(numbers.pop())
+numbers.unshift(87)
+numbers.shift()
+const myArr=numbers.slice(1,3)
+console.log("A",myArr)
 
 
 
